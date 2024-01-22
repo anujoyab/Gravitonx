@@ -1,0 +1,101 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+nav{
+    background-color: #1b1b1b ;
+    width: 100%;
+    padding: 10px 0;
+    position: fixed;
+    z-index: 14;
+}
+nav .think{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1100px;
+    padding: 0 17px;
+}
+.think .main a{
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 800;
+    color: whitesmoke;
+    float: right;
+}
+.think .main a:hover{
+    color: coral;
+}
+.think .main span{
+    color: aqua;
+}
+.think ul{
+     display: inline-flex;
+}
+.think ul li{
+    margin-left: 9px;
+    list-style: none;
+}
+.think ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 9px;
+}
+.think ul li a:hover{
+    color: black;
+    background-color: rgb(54, 170, 170);
+    border-radius: 8px;
+}
+
+.image{
+    background: url(wander.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.layout{
+    position: absolute;
+    top: 50%;
+    left: 41%;
+    transform: translate(-50%, -41%);
+}
+.card h2{
+    font-size: 65px;
+    font-weight: 600;
+    color: rgb(207, 164, 22);
+    text-shadow: 1px 4px 5px black;
+}
+.card p{
+    font-size: 25px;
+    color: hsla(110, 93%, 50%, 0.827);
+    font-weight: bold;
+}
+.card .krishna{
+    font-size: 25px;
+    font-weight: 600;
+    background: none;
+    border: 2px solid #080404;
+    border-radius: 5px;
+}
+.card .krishna a{
+    text-decoration: none;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+}
+.card .krishna a:hover{
+    color: black;
+    
+}
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+}
